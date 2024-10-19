@@ -1,53 +1,63 @@
-# Next.js & NextUI Template
+# Twinkling Star Guest House
 
-This is a template for creating applications using Next.js 14 (app directory) and NextUI (v2).
+Welcome to the Twinkling Star Guest House repository! This project is designed to manage and showcase the Twinkling Star Guest House's operations, services, and booking system, exclusively for guests. It provides a user-friendly interface for guests to manage reservations, view available rooms, and access essential information about the guest house.
 
-[Try it on CodeSandbox](https://githubbox.com/nextui-org/next-app-template)
+## Features
+
+- **Room Booking System**: Guests can view available rooms, check pricing, and make reservations.
+- **User Profiles**: Guests can create and manage their profiles, view past bookings, and access personalized offers.
+- **Payment Integration**: Secure payment gateway integration for online payments.
+- **Responsive Design**: Accessible on all devices, including desktops, tablets, and mobile phones.
+- **Multi-language Support**: Available in multiple languages to cater to a diverse clientele.
 
 ## Technologies Used
 
-- [Next.js 14](https://nextjs.org/docs/getting-started)
-- [NextUI v2](https://nextui.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+- **Frontend**: HTML, CSS, JavaScript/TypeScript, React, Next.js
+- **Backend**: Node.js
+- **Database**: PostgreSQL
+- **Payment Gateway**: Stripe API
+- **Authentication**: JWT (JSON Web Tokens) for secure user authentication
 
-## How to Use
+## Installation
 
-### Use the template with create-next-app
-
-To create a new project based on this template using `create-next-app`, run the following command:
+To get started with the project, clone the repository and install the necessary dependencies:
 
 ```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
-```
-
-### Install dependencies
-
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
-```bash
+git clone https://github.com/yourusername/twinkling-star-guest-house.git
+cd twinkling-star-guest-house
 npm install
 ```
 
-### Run the development server
+## Configuration
+
+Create a `.env` file in the root directory with the following environment variables:
+
+```plaintext
+DATABASE_URL=your_database_url
+JWT_SECRET=your_jwt_secret
+STRIPE_API_KEY=your_stripe_api_key
+```
+
+## Running the Application
+
+To start the application in development mode, use the following command:
 
 ```bash
 npm run dev
 ```
 
-### Setup pnpm (optional)
+The application will be available at `http://localhost:3000`.
 
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
+## Contributing
 
-```bash
-public-hoist-pattern[]=*@nextui-org/*
-```
+We welcome contributions to enhance the functionality and improve the user experience of the Twinkling Star Guest House. Please follow the standard Git workflow:
 
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
+- Fork the repository.
+- Create a new branch (`git checkout -b feature/YourFeature`).
+- Commit your changes (`git commit -m 'Add YourFeature'`).
+- Push to the branch (`git push origin feature/YourFeature`).
+- Open a Pull Request.
 
 ## License
 
-Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
+This project is licensed under the MIT License. See the LICENSE file for details.
