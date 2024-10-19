@@ -71,11 +71,6 @@ export default function Navbar2() {
             About Us
           </Link>
         </NavbarItem>
-        <NavbarItem>
-          <LinkPreview className={pathname === "/framer" ? "font-semibold text-danger" : "text-black"} url="https://framer.com/motion">
-            Framer Motion
-          </LinkPreview>
-        </NavbarItem>
       </NavbarContent>
       
       <NavbarMenu>
