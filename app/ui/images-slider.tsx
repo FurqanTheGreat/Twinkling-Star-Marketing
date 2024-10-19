@@ -5,7 +5,6 @@ import { ImagesSlider } from "@/components/ui/images-slider";
 import { Raleway } from "next/font/google";
 import { Playfair_Display } from "next/font/google";
 import { HeroHighlight, Highlight } from "@/components/ui/hero-highlight";
-import SignUp from "./inquiry-form";
 
 const playfairDisplay = Playfair_Display({
   subsets: ['latin'],
