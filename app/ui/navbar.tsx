@@ -4,7 +4,6 @@ import { HoveredLink, Menu, MenuItem, ProductItem } from "@/components/ui/navbar
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
-import { div } from "framer-motion/client";
 import { Poppins } from "next/font/google";
 import { Montserrat } from "next/font/google";
 import { LinkPreview } from "@/components/ui/link-preview";
@@ -107,11 +106,6 @@ function Navbar({ className }: { className?: string }) {
             <HoveredLink href="/team">Team</HoveredLink>
             <HoveredLink href="/enterprise">Enterprise</HoveredLink>
           </div>
-        </MenuItem>
-        <MenuItem setActive={setActive} active={active} item={
-          <LinkPreview url="https://framer.com/motion" className="font-bold">
-          Framer Motion
-        </LinkPreview>}>
         </MenuItem>
         </div>
       </Menu>
